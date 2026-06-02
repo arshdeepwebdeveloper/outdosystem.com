@@ -539,9 +539,15 @@ ul { list-style: none; padding: 0; margin: 0; }
   position: relative; cursor: default;
 }
 .ps-number {
-  font-family: 'Barlow Condensed', sans-serif;
-  font-size: 4rem; font-weight: 900; color: rgba(227,30,36,0.1);
-  line-height: 1; margin-bottom: -10px; letter-spacing: -2px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgba(227, 30, 36, 0.1);
+    line-height: 1;
+    margin-bottom: -67px;
+    margin-right: 15px;
+    letter-spacing: 5px;
+    text-align: end;
 }
 .ps-content {
   background: rgba(255,255,255,0.03); border: 1px solid var(--border);
