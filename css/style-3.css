@@ -1,0 +1,131 @@
+:root {
+  --red: #e31e24;
+  --red-dark: #c81920;
+  --red-glow: rgba(227,30,36,0.18);
+
+  /* Light Theme */
+  --black: #f4f6f8;
+  --black2: #ffffff;
+  --black3: #eef2f5;
+
+  --gray: #6b7280;
+  --gray-light: #fafafa;
+
+  --white: #1f2937;
+
+  --border: rgba(0,0,0,0.08);
+  --border-light: rgba(0,0,0,0.05);
+
+  --shadow: 0 20px 60px rgba(0,0,0,0.08);
+  --shadow-red: 0 8px 30px rgba(227,30,36,0.18);
+
+  --radius: 12px;
+  --radius-lg: 20px;
+  --transition: 0.35s cubic-bezier(0.25,0.8,0.25,1);
+}
+
+body{
+    background:#f4f6f8;
+    color:#1f2937;
+}
+
+#mainNav.scrolled{
+    background:rgba(255,255,255,0.95);
+    border-bottom:1px solid rgba(0,0,0,0.08);
+}
+
+.navbar-nav .nav-link{
+    color:#374151 !important;
+}
+
+.navbar-nav .nav-link:hover{
+    color:var(--red) !important;
+}
+
+.nav-logo-img{
+    filter:none;
+}
+
+.service-card,
+.why-card,
+.team-card,
+.case-card,
+.contact-form-wrap,
+.testi-card,
+.pillar,
+.ci-item{
+    background:#ffffff;
+    border:1px solid rgba(0,0,0,0.08);
+}
+
+.about-section{
+    background:#f4f6f8;
+}
+
+.services-section{
+    background:#ffffff;
+}
+
+.why-section{
+    background:#eef2f5;
+}
+
+.process-section{
+    background:#f4f6f8;
+}
+
+.portfolio-section{
+    background:#ffffff;
+}
+
+.cases-section{
+    background:#eef2f5;
+}
+
+.testimonials-section{
+    background:#ffffff;
+}
+
+.industries-section{
+    background:#f4f6f8;
+}
+
+.team-section{
+    background:#ffffff;
+}
+
+.faq-section{
+    background:#eef2f5;
+}
+
+.contact-section{
+    background:#f4f6f8;
+}
+
+.section-body,
+.hero-sub,
+.pillar p,
+.why-card p,
+.service-card p,
+.case-block p,
+.footer-brand p{
+    color:#6b7280;
+}
+
+.hero-section{
+    background:
+    radial-gradient(circle at top right,
+    rgba(227,30,36,0.08),
+    transparent 40%),
+    #f4f6f8;
+}
+
+.hero-grid{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,0,0,0.03) 1px, transparent 1px);
+}
+
+.site-footer{
+    background:#111111;
+}
